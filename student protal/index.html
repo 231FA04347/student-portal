@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark">
+
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+
+    <button id="themeToggle" aria-label="Toggle dark/light mode">🌙</button>
+    <div class="navbar-brand">Student Portal</div>
+    <button class="navbar-toggle" id="navbar-toggle" aria-label="Open menu" aria-controls="navbar-menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#quicklinks" class="nav-link">Quick Links</a></li>
+      <li><a href="#events" class="nav-link">Events</a></li>
+      <li><a href="#resources" class="nav-link">Resources</a></li>
+      <li><a href="#announcements" class="nav-link">Announcements</a></li>
+      <li><a href="#faq" class="nav-link">FAQ</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><button class="login-btn" id="loginBtn">Login/Register</button></li>
+    </ul>
+  </nav>
+
+
+  <section class="section fade-in" id="home">
+    <h1>Welcome to the Student Portal</h1>
+    <p>
+      Your one-stop solution for all campus needs. Access resources, stay updated, and connect with your campus community.
+    </p>
+    <div class="cta-buttons">
+      <button class="cta primary" id="loginBtn2">Login</button>
+      <button class="cta">Explore Resources</button>
+    </div>
+  </section>
+
+  <section class="section fade-in" id="quicklinks">
+    <h2>Quick Links</h2>
+    <div class="quicklinks-grid">
+      <a href="#" class="quicklink-card"><span>📚</span><div>Library</div></a>
+      <a href="#" class="quicklink-card"><span>🗓️</span><div>Timetable</div></a>
+      <a href="#" class="quicklink-card"><span>📝</span><div>Assignments</div></a>
+      <a href="#" class="quicklink-card"><span>🎓</span><div>Results</div></a>
+      <a href="#" class="quicklink-card"><span>🌐</span><div>Online Classes</div></a>
+      <a href="#" class="quicklink-card"><span>💳</span><div>Fee Payment</div></a>
+    </div>
+  </section>
+
+  <section class="section fade-in" id="events">
+    <h2>Upcoming Events</h2>
+    <div class="events-list">
+      <div class="event-card">
+        <span class="event-date">27 Jun</span>
+        <div>
+          <strong>Workshop: AI for Beginners</strong><br>
+          Room 204, Main Block
+        </div>
+      </div>
+      <div class="event-card">
+        <span class="event-date">1 Jul</span>
+        <div>
+          <strong>Library Maintenance</strong><br>
+          Library closed whole day
+        </div>
+      </div>
+      <div class="event-card">
+        <span class="event-date">5 Jul</span>
+        <div>
+          <strong>Sports Meet</strong><br>
+          College Stadium
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade-in" id="resources">
+    <h2>Download Resources</h2>
+    <div class="resources-grid">
+      <a href="sample-timetable.pdf" download class="resource-card">📥 Timetable PDF</a>
+      <a href="student-handbook.pdf" download class="resource-card">📥 Student Handbook</a>
+      <a href="ai-notes.pdf" download class="resource-card">📥 AI Notes</a>
+    </div>
+  </section>
+
+  <section class="section fade-in" id="announcements">
+    <h2>Latest Announcements</h2>
+    <ul class="announcements-list">
+      <li>
+        <strong>Semester Results:</strong> Results for Spring 2025 are now live! <a href="#">Check here</a>.
+        <span class="announcement-date">25 June 2025</span>
+      </li>
+      <li>
+        <strong>Library Notice:</strong> Library will be closed on 1st July for maintenance.
+        <span class="announcement-date">22 June 2025</span>
+      </li>
+      <li>
+        <strong>New Course:</strong> Data Science & AI elective registrations open now!
+        <span class="announcement-date">20 June 2025</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section fade-in" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">How do I reset my password?</button>
+        <div class="faq-answer">Go to Login → Forgot Password, enter your email, and follow the instructions sent to your inbox.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Where can I download the academic calendar?</button>
+        <div class="faq-answer">Visit the Resources section or <a href="academic-calendar.pdf" download>download here</a>.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Who do I contact for technical support?</button>
+        <div class="faq-answer">Use the Contact & Support form or email help@studentportal.com.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade-in" id="testimonials">
+    <h2>What Students Say</h2>
+    <div class="testimonial-carousel">
+      <div class="testimonial-slide active">
+        <p>"The Student Portal makes everything so easy. I love the new features!"</p>
+        <span>- Priya S., 2nd Year</span>
+      </div>
+      <div class="testimonial-slide">
+        <p>"Quick access to assignments and results has saved me so much time."</p>
+        <span>- Rahul R., 3rd Year</span>
+      </div>
+      <div class="testimonial-slide">
+        <p>"The events calendar is a great addition. I never miss an event now!"</p>
+        <span>- Sara M., 1st Year</span>
+      </div>
+      <button class="testimonial-prev" aria-label="Previous testimonial">&#8592;</button>
+      <button class="testimonial-next" aria-label="Next testimonial">&#8594;</button>
+    </div>
+  </section>
+
+  <section class="section fade-in" id="contact">
+    <h2>Contact & Support</h2>
+    <p>
+      For queries or support, reach out to us at:
+      <a href="mailto:help@studentportal.com" class="contact-link">help@studentportal.com</a>
+    </p>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your message..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="newsletter">
+      <h3>Subscribe for Updates</h3>
+      <form id="newsletterForm">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <button id="scrollTopBtn" aria-label="Scroll to top">&#8679;</button>
+
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Login or Register</h2>
+      <form id="loginForm">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <button type="button" class="secondary-btn" id="registerBtn">Register</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
