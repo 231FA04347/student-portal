@@ -41,9 +41,9 @@ student-portal/
 
 To run the project locally:
 
-1. Clone the repo:
+
    ```bash
-   git clone https://github.com/yourusername/student-portal.git
+  https://student-portal-hub.netlify.app/
    ```
 ## Author
 Vajinepalli Bharath Chandra
